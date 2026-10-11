@@ -22,15 +22,15 @@ After pushing this repo, enable Pages so anyone can play with just a URL:
 1. Go to **Settings → Pages** in your GitHub repo
 2. Under **Build and deployment**, set **Source** to *Deploy from a branch*
 3. Choose branch `main` and folder `/ (root)`, then **Save**
-4. After a minute or so, the game is live at `https://<your-username>.github.io/<repo-name>/`
+4. After a minute or so, the game is live at `https://shreevatsen-gopalan.github.io/chess-stockfish/`
 
 ### Option 2: Run locally
 
 You need to serve the folder over HTTP (see [Why not just open `index.html`?](#why-not-just-open-indexhtml) below). Any static server works. With Python, which is preinstalled on macOS and most Linux systems:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/shreevatsen-gopalan/chess-stockfish.git
+cd chess-stockfish
 python3 -m http.server 8000
 ```
 
